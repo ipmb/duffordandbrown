@@ -1,0 +1,968 @@
+/* Have fun adding your style here :) - PS: At all times this file should contain a comment or a rule, otherwise opera might act buggy :( */
+
+
+/* Web font embedding
+------------------------------------*/
+@font-face {
+    font-family: 'uni_sans_book';
+    src: url('../fonts/uni-sans-book-webfont.eot');
+    src: url('../fonts/uni-sans-book-webfont.eot?') format('embedded-opentype'),
+         url('../fonts/uni-sans-book-webfont.woff') format('woff'),
+         url('../fonts/uni-sans-book-webfont.ttf') format('truetype'),
+         url('../fonts/uni-sans-book-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'uni_sans_semibold';
+    src: url('../fonts/uni-sans-semibold-webfont.eot');
+    src: url('../fonts/uni-sans-semibold-webfont.eot?') format('embedded-opentype'),
+         url('../fonts/uni-sans-semibold-webfont.woff') format('woff'),
+         url('../fonts/uni-sans-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/uni-sans-semibold-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* General css styles
+------------------------------------*/
+h1, h2, h3 {
+	font-family: 'uni_sans_book', Arial, Helvetica, sans-serif;
+	font-weight:normal!important;
+	text-transform:none!important;
+}
+
+h4, h5 {
+	font-family: 'uni_sans_semibold', Arial, Helvetica, sans-serif;
+	font-weight:normal!important;
+	text-transform:uppercase;
+}
+
+h1 {
+	color:#878800!important;
+	font-size:52px;
+}
+
+h2 {
+	color:#616365!important;
+	font-size:30px;
+}
+
+h3 {
+	color:#616365!important;
+	font-size:24px;
+	line-height:1.3;
+}
+
+h4 {
+	color:#878800!important;
+	font-size:18px!important;
+}
+
+
+/* misc
+------------------------------------*/
+.main_menu > div > ul > li > a {
+	color:#eeefe8!important;
+	font-size:13px!important;
+	font-weight:normal!important;
+}
+
+#home-panel-1 > div {
+	background: url(../../../uploads/2013/11/home_panel_1_bg.png) top right no-repeat;
+	min-height:420px;
+}
+
+#home-panel-2 p, #featured-lawyer p {
+	font-size:16px;
+	line-height:150%;
+}
+
+
+
+.avia-logo-grid .slide-entry {
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.avia-logo-grid a {
+	background-color:transparent!important;
+}
+
+.avia-button {
+	font-size:20px!important;
+	font-family: 'uni_sans_semibold', Arial, Helvetica, sans-serif;
+	font-weight:normal!important;
+	text-transform:uppercase;
+	background:url(../images/custom/button_arrow.png) center right no-repeat!important;
+	background-color:transparent!important;
+	color:#878800!important;
+	margin:0!important;
+	padding:0 30px 0 0!important;
+	border:0!important;
+}
+
+.avia-logo-grid .avia-smallarrow-slider-heading {
+	display:none!important;
+}
+
+.avia-logo-grid {
+	margin-top:0!important;
+}
+
+.avia-section {
+	min-height:0!important;
+}
+
+.avia_image {
+	border-radius:0!important;
+	-moz-border-radius:0!important;
+	-webkit-border-radius:0!important;
+	-o-border-radius:0!important;
+}
+
+#no-border, #featured-lawyer {
+	border:0!important;
+}
+
+#featured-lawyer img {
+	float:right;
+}
+
+.lawyer-highlights {
+	color:#616365!important;
+	font-family: 'uni_sans_semibold', Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	font-size:13px!important;
+	padding:4px 8px;
+	background-color:#d4ce9f;
+	display:inline-block;
+	margin:70px 0 20px 0;
+}
+
+footer.container_wrap {
+	display:none;
+}
+
+#footer {
+	border:0;
+}
+
+#three-column > div > main > div > div > div.avia-builder-el-first,
+#three-column > div > main > div > div > div.avia-builder-el-last,
+#three-column > div > div > div > div > div.avia-builder-el-first,
+#three-column > div > div > div > div > div.avia-builder-el-last {
+	padding:20px;
+}
+
+#three-column > div > main > div > div > div.av_one_half,
+#three-column > div > div > div > div > div.av_one_half {
+	padding:20px 0;
+}
+
+#three-column {
+	border:0;
+}
+
+#home-panel-3 p {
+	font-size:14px;
+}
+
+.widget_nav_menu ul:first-child>.current-menu-item, .widget_nav_menu ul:first-child>.current_page_item, .widget_nav_menu ul:first-child>.current-menu-ancestor {
+	left:0;
+	padding-left:0;
+}
+
+#menu-footer-menu li {
+	background-color:transparent!important;
+	border:0!important;
+	box-shadow:none!important;
+	-moz-box-shadow:none!important;
+	-webkit-box-shadow:none!important;
+	-o-box-shadow:none!important;
+	padding:0!important;
+}
+
+#menu-footer-menu li a {
+	color:#ebeae3;
+	font-size:13px;
+	line-height: 13px;
+	padding: 4px 0;
+	font-weight:normal!important;
+	text-decoration:none;
+}
+
+#menu-footer-menu li a:hover {
+	font-weight:normal!important;
+	text-decoration:underline;
+}
+
+#footer .widget {
+	margin:10px 0;
+	color:#ebeae3;
+	line-height:15px;
+	font-size:12px;
+}
+
+.content:hover, .sidebar:hover {
+z-index: 1;
+}
+
+#footer .container .av_one_half:last-child {
+	text-align:right;
+}
+
+.avia-search-tooltip #searchsubmit {
+	border-left: 1px solid #CECECE;
+	height:40px!important;
+}
+
+.avia-search-tooltip #s {
+	background-color: #EEEFE8!important;
+}
+
+#top .main_menu .menu li ul a {
+	color: #EEEFE8;
+	background-color:rgba(128,128,120,.81);
+}
+
+#top .main_menu .menu li ul li:hover {
+	background-color:transparent;
+}
+
+#top .main_menu .menu li ul a:hover {
+	
+}
+
+.main_menu ul li ul li:hover > a, .main_menu ul li:hover > a {
+	background-color:rgba(102,102,92,.81)!important;
+}
+
+.main_menu ul:first-child >li > ul {
+	border-top-width:1px;
+	margin-top:0;
+}
+
+#top .main_menu .menu li ul ul {
+	top:-1px;
+}
+
+#top .main_menu .menu > li.active-parent-item, #top .main_menu .menu> li.current-menu-item {
+	background-color:rgba(102, 102, 92, 0.81)!important;
+}
+
+.header_color .main_menu ul, .header_color .main_menu {
+	background-color:transparent;
+}
+
+.avia-team-member .team-social {
+	visibility: visible;
+	opacity: 1;
+	border:none;
+	position:static;
+	text-align:left;
+}
+
+.team-social-inner {
+	position:static;
+	margin-top:0;
+	padding:0;
+}
+
+.team-social a {
+	background: #D3D3C9;
+	border-radius: 30px;
+	padding: 0 10px;
+	height: 34px;
+	line-height: 34px;
+	width: 34px;
+	font-size: 15px;
+}
+
+.main_color .team-social a {
+	color:#fff;
+}
+
+.main_color .team-social a:hover {
+	color:#5b594c;
+}
+
+.team-img-container {
+	margin:0 0 20px 0;
+}
+
+.team-img-container img {
+	margin:0;
+}
+
+.team-member-job-title {
+	text-transform:uppercase;
+	font-size:110%;
+	padding-left:1px;
+	margin-bottom:7px;
+}
+
+.hr-short .hr-inner {
+width: 72%;
+left: 50%;
+margin-left: -36%;
+}
+
+.main_color table.avia-data-table td, .main_color table.avia-data-table th, .dfb_table td, .dfb_table th {
+	font-size:11px;
+	line-height:1.4;
+}
+
+.main_color table caption, .main_color tr:nth-child(even), .main_color .pricing-table>li:nth-child(even) {
+	color:#616365;
+}
+
+.paralegal-table-name {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.paralegal-table-title {
+	font-style:italic;
+}
+
+th {
+	letter-spacing: .5px;
+}
+.table-caption {
+	margin-bottom:-20px;
+	margin-top:20px;
+}
+
+.main_color .toggle_content b {
+	color:#202021;
+}
+
+.lawyer-caption {
+	display:block;
+	line-height: 1.3;
+	font-size: 11px;
+	margin-top: 4px;
+}
+
+#top .avia-logo-element-container img {
+	margin:0;
+}
+
+#top #home-panel-2 .avia-logo-element-container img {
+	max-width:110px;
+}
+
+#top #home-panel-2 .avia-logo-element-container .lawyer-caption {
+	display:none;
+}
+
+#top #home-panel-2 .avia-logo-element-container .slide-entry-wrap:first-child {
+	margin-bottom:20px;
+}
+
+#home-panel-2.avia-shadow {
+	box-shadow:0 2px 13px rgba(36, 24, 6, 0.72);
+	-webkit-box-shadow:0 2px 13px rgba(36, 24, 6, 0.72);
+	-moz-box-shadow:0 2px 13px rgba(36, 24, 6, 0.72);
+	border-top:0;
+}
+
+::selection {
+	background-color:#878800;
+}
+
+/* changing it now, so that it's any sidebar.
+.attorney-layout .av_one_fourth .avia_textblock h3 {
+	margin:30px 0 6px 0!important;
+	line-height:1;
+}
+
+.attorney-layout .av_one_fourth .av_textblock_section:first-child .avia_textblock h3 {
+	margin:0 0 6px 0!important;
+}
+
+
+.attorney-layout .av_one_fourth .avia_textblock ul {
+	margin:0 0 0 1px;
+	padding:0;
+	list-style-type:none;
+}
+
+.attorney-layout .av_one_fourth .avia_textblock ul li {
+	margin:0 0 10px 0;
+	padding:0;
+	line-height:1.2;
+	font-size:12px;
+}*/
+
+.av_one_fourth h3 {
+	margin:0 0 6px 0!important;
+	line-height:1.2;
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight: bold!important;
+	color: #4C4D4C!important;
+	font-size: 12px!important;
+	letter-spacing:normal;
+}
+
+.av_one_fourth p {
+	line-height:1.2;
+}
+
+.av_one_fourth {
+	color:#4c4d4c;
+}
+
+.av_one_fourth h3 + p {
+	margin-top:0;
+	font-size:12px;
+}
+
+.av_one_fourth .av_textblock_section:first-child .avia_textblock h3 {
+	margin:0 0 6px 0!important;
+}
+
+.av_one_fourth .avia_textblock ul {
+	margin:0 0 0 1px;
+	padding:0;
+	list-style-type:none;
+}
+
+.av_one_fourth .avia_textblock ul li {
+	margin:0 0 10px 0;
+	padding:0;
+	line-height:1.2;
+	font-size:12px;
+}
+
+#three-column.attorney-layout > div > main > div > div > div.av_one_half {
+	padding-top:0;
+}
+
+.attorney-layout .av_one_fourth .widget_nav_menu h3, .widget_advanced_menu h3, h3.widgettitle {
+	font-size:24px;
+	margin:0 0 10px 0!important;
+	padding:0;
+	line-height:1.2;
+}
+
+.attorney-layout .widget_advanced_menu ul:first-child>.current-menu-item>a, .attorney-layout .widget_nav_menu ul:first-child>.current_page_item>a {
+	padding:0;
+	border:0;
+	background-color:transparent;
+}
+
+.widget_advanced_menu .menu-item {
+	padding:0;
+	line-height:1.2;
+	font-size:12px;
+	margin-bottom:6px;
+	list-style-type:none;	
+	margin-left:0;
+}
+
+.widget_advanced_menu .menu-item .sub-menu .menu-item {
+	margin-left:20px;
+}
+
+.widget_advanced_menu .menu-item a {
+	color:#4c4d4c;
+}
+
+.widget_advanced_menu ul ul {
+	margin-top:6px!important;
+}
+
+.widget_advanced_menu .current-menu-item > a {
+	color:#878800;
+	text-decoration:underline;
+}
+
+.footer_color a, .footer_color .widget_first, .footer_color strong, .footer_color b, .footer_color b a, .footer_color strong a, .footer_color #js_sort_items a:hover, .footer_color #js_sort_items a.active_sort, .footer_color .av-sort-by-term a.active_sort, .footer_color .special_amp, .footer_color .taglist a.activeFilter {
+	color:#ebeae3;
+	text-decoration:underline;
+}
+
+/*.widget_advanced_menu ul ul {
+	display:none;
+	margin-top:6px!important;
+}
+
+.current_page_item.menu-item-has-children ul, .widget_advanced_menu .current-page-ancestor ul {
+	display:block;
+}*/
+
+#top .header_color select {
+	background-color:#fff;
+}
+
+#top .main_menu .menu li ul ul {
+	left:207px;
+}
+
+#top .main_menu .menu li ul a {
+	padding:4px 15px;
+}
+
+.home-ticker {
+	color: #EBEAE2;
+	font-style:italic;
+	font-size:14px;
+}
+
+.home-ticker p {
+	margin:4px 0;
+}
+
+.home-ticker a {
+	color: #EBEAE2!important;
+	text-decoration:underline;
+}
+
+.home-ticker .slide-entry-title, .home-ticker .no-content-slider-heading {
+	display:none!important;
+}
+
+.home-ticker .avia-content-slider {
+	margin:0;
+}
+
+.header_color .sub_menu>ul>li>a, .header_color .sub_menu>div>ul>li>a, .header_color .main_menu ul:first-child > li > a, #top .header_color .main_menu .menu ul .current_page_item > a, #top .header_color .main_menu .menu ul .current-menu-item > a, #top .header_color .sub_menu li ul a {
+	color:#EEEFE8;
+}
+
+
+
+.main_menu > div > ul > li.hidden-tertiary-nav > ul > li > ul {
+	display:none!important;
+}
+
+.menu-item-search-dropdown a {
+	padding-right:13px!important;
+}
+
+.attorney-layout .entry-content-wrapper div.av_one_half li {
+	line-height: 1;
+}
+
+.attorney-layout .entry-content-wrapper div.av_one_half li ul {
+	margin-left:10px;
+}
+
+#header_main {
+	border-bottom-width:0;
+}
+
+.main_color, .main_color .site-background, .main_color .first-quote, .main_color .related_image_wrap, .main_color .gravatar img .main_color .hr_content, .main_color .news-thumb, .main_color .post-format-icon, .main_color .ajax_controlls a, .main_color .tweet-text.avatar_no, .main_color .big-preview, .main_color .toggler, .main_color .toggler.activeTitle:hover, .main_color #js_sort_items, .main_color.inner-entry, .main_color .grid-entry-title, .main_color .related-format-icon, .grid-entry .main_color .avia-arrow, .main_color .avia-gallery-big, .main_color .avia-gallery-big, .main_color .avia-gallery img, .main_color .grid-content {
+	background-color: #F1F1EA;
+}
+
+.main_color a, .main_color .widget_first, .main_color strong, .main_color b, .main_color b a, .main_color strong a, .main_color #js_sort_items a:hover, .main_color #js_sort_items a.active_sort, .main_color .av-sort-by-term a.active_sort, .main_color .special_amp, .main_color .taglist a.activeFilter,
+
+.main_color a:hover, .main_color h1 a:hover, .main_color h2 a:hover, .main_color h3 a:hover, .main_color h4 a:hover, .main_color h5 a:hover, .main_color h6 a:hover, .main_color .template-search a.news-content:hover {
+	color:#878800;
+}
+
+/*default header: main logo and main menu height. increase max value if you want to use a bigger logo*/
+#header_main .container, .main_menu ul:first-child > li a{ height:70px; line-height: 70px; }
+
+/*header with social icons and bottom nav */
+.bottom_nav_header.social_header #header_main .container{height:70px; line-height: 70px;}
+
+.fixed_header #main {
+	padding-top: 70px;
+}
+
+.avia-team-member .team-social {
+	background:transparent;
+}
+
+.avia-menu-fx {
+	display:none;
+}
+
+#main > #three-column.main_color {
+	background-image:url(../images/custom/gradient.jpg);
+	background-position:top left;
+	background-repeat:repeat-x;
+}
+
+.widget_breadcrumb_navxt {
+	font-size:10px;
+	padding-bottom:4px;
+}
+
+
+
+
+.header-image img {
+	width:100%;
+}
+
+hr {
+	border-color:#d5d5cc;
+	border-width:2px 0 0;
+}
+
+
+#top #s {
+	height:40px;
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+	#three-column > div > main > div > div > div.avia-builder-el-first,
+	#three-column > div > main > div > div > div.avia-builder-el-last {
+		background-color:transparent;
+		padding:0;
+	}
+	
+	#three-column > div > main > div > div > div.avia-builder-el-first > section,
+	#three-column > div > main > div > div > div.avia-builder-el-first > div > section,
+	#three-column > div > main > div > div > div.avia-builder-el-last > section,
+	#three-column > div > main > div > div > div.avia-builder-el-last > div > section {
+		background-color:#d3d3c9;
+		padding:10px;
+		margin:10px 0;
+	}
+	
+	.av_one_fourth .av_textblock_section .avia_textblock h3 {
+		margin: 0 0 6px 0!important;
+	}
+	
+	.widget {
+		padding:0;
+	}
+	
+	.responsive #top .avia-smallarrow-slider .flex_column {
+		margin: 1.5%;
+		width: 30%;
+	}
+	
+	.responsive #top .avia-content-slider-odd .slide-entry.first {
+		width:30%;
+	}
+	
+	.responsive #top .avia-content-slider-even .slide-entry.slide-parity-odd, .responsive #top .avia-content-slider-odd .slide-entry.slide-parity-even {
+		clear:none;
+		margin:1.5%;
+	}
+}
+
+@media only screen and (max-width: 989px) and (min-width: 768px) {
+	/*#three-column .container {
+		background:url(../images/custom/minitab_bg.jpg) top left repeat-y;
+	}*/
+	
+	#three-column > div > main > div > div > div.avia-builder-el-first, #three-column > div > main > div > div > div.avia-builder-el-last {
+		padding:10px;
+	}
+	
+	/* fixes for ie */
+	div .av_one_fourth .avia-image-container {
+		width: 97px;
+		display:block;
+	}
+}
+
+@media only screen and (max-width: 1139px) and (min-width: 990px) {
+	/*#three-column .container {
+		background:url(../images/custom/tablet_bg.jpg) top left repeat-y;
+	}*/
+	
+	#home-panel-1 > div {
+		background-position-x:350px;
+	}
+	
+	.av_one_fourth.avia-builder-el-last > *+*:before
+	{
+		content: "";
+		display: block;
+		height: 2px;
+		margin: 20px -20px;
+		background: #c2c2bf;
+		border-bottom:2px solid #f3f3f0;
+	}
+	
+	/* fixes for ie */
+	div .av_one_fourth .avia-image-container {
+		width: 146px;
+		display:block;
+	}
+}
+
+
+@media only screen and (min-width: 1140px) {
+	/*#three-column .container {
+		background:url(../images/custom/desktop_bg.jpg) top left repeat-y;
+	}*/
+	
+	.av_one_fourth.avia-builder-el-last > *+*:before
+	{
+		content: "";
+		display: block;
+		height: 2px;
+		margin: 20px -20px;
+		background: #c2c2bf;
+		border-bottom:2px solid #f3f3f0;
+	}
+	
+	/* fixes for ie */
+	div .av_one_fourth .avia-image-container {
+		width: 171px;
+		display:block;
+	}
+	
+}
+
+@media only screen and (max-width: 1139px) {
+	.attorney-layout .av_one_fourth .widget_nav_menu h3, .widget_advanced_menu h3, .av_one_fourth h3 {
+		font-size:18px;
+		margin:0 0 10px 0!important;
+		padding:0;
+		font-family: 'uni_sans_semibold', Arial, Helvetica, sans-serif;
+		font-weight:normal!important;
+	}
+	
+	h1 {
+		font-size:28px;
+	}
+	
+	
+	
+}
+
+@media only screen and (max-width: 989px) {
+	.responsive #top .avia-team-member .team-social {
+		border: none;
+		position: relative;
+		font-size: 20px;
+		background: transparent;
+		opacity: 1;
+		visibility: visible;
+		top: auto;
+		left: 0;
+		right: 0;
+		bottom: 5px;
+		height: 60px;
+		text-align: left;
+		border-radius: 3px;
+		border-top-right-radius: 0px;
+		border-top-left-radius: 0px;
+		font-size: 15px;
+		z-index: 1;
+	}
+	
+	.responsive #top .avia-team-member .team-social a {
+		color:#fff;
+		background-color: #D3D3C9;
+		border:none;
+		margin:3px 4px 0 0;
+		padding-left:10px;
+	}
+	
+	.mobile_active #advanced_menu_toggle{
+		display: block;
+	}
+
+	.responsive #header .main_menu ul {
+		display:none;
+	}
+	
+	.lawyer-highlights {
+		margin-top:16px;
+	}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+	.responsive #top .avia-team-member .av_one_third {
+		width: 29.333333333333332%;
+	}
+	
+	.responsive #top .avia-team-member .av_two_third {
+		margin-left: 6%;
+		width: 64.66666666666666%;
+	}
+	
+	.responsive #top .avia-team-member > div {
+		margin-bottom:0;
+	}
+	
+	
+}
+
+@media only screen and (min-width: 480px) {
+	.mobile-only {
+		display:none;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	
+	
+	.dfb_table tr, .dfb_table td {
+		display:block;
+	}
+	
+	.dfb_table tbody tr:first-child {
+		display:none;
+	}
+	
+	.dfb_table td {
+		border-left-style: solid;
+		border-left-width: 1px;
+	}
+	
+	.dfb_table td:first-child {
+		border-bottom:0;
+	}
+	
+	.mobile-only {
+		display:block;	
+	}
+	
+	.fake-th {
+		color: #616365;
+		text-transform:uppercase;
+		font-weight:bold;
+	}
+	
+	
+}
+
+@media only screen and (max-width: 767px) {
+	.logo a img {
+		max-height:80px!important;
+	}
+	
+	#home-panel-1 > div {
+		background:none;
+		min-height:10px;
+	}
+	
+	#home-panel-1 > div > main {
+		margin:0;
+	}
+	
+	#home-panel-1 .flex_column {
+		margin:0!important;
+	}
+	
+	.responsive #top #home-panel-2 .slide-entry {
+		width:33.3%;
+		clear:none;
+	}
+	
+	#footer .container .av_one_half:last-child {
+		text-align:left;
+	}
+	
+	.flex_column.av_one_fourth.first {
+		display:none;
+	}
+	
+	.paralegals .av_one_half table tr td:first-child {
+		border-bottom:0;
+		padding-bottom:0;
+	}
+	
+	.paralegals .av_one_half table tr td:last-child {
+		padding-top:0;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 989px) {
+	.logo a img {
+		max-width:140px!important;
+		padding-top:10px;
+	}
+	
+	.mobileMenu {
+		display:block!important;
+	}
+	
+	#home-panel-1 > div {
+		background-position-x:210px;
+	}
+	
+	.av_one_fourth.avia-builder-el-last > *+*:before
+	{
+		content: "";
+		display: block;
+		height: 2px;
+		margin: 20px -10px;
+		background: #c2c2bf;
+		border-bottom:2px solid #f3f3f0;
+	}
+}
+
+
+
+/*
+Desktop Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+
+@media only screen and (min-width: 768px) {
+
+  
+  	/*
+	Grid fixes
+	================================================== */
+	#three-column > div > main > div > .entry-content-wrapper, #three-column > div > div > div > .entry-content-wrapper {
+		display:table;
+		height:100%;
+	}
+	
+	#three-column > div > main > div > .entry-content-wrapper > .av_one_fourth, #three-column > div > main > div > .entry-content-wrapper > .av_one_half,
+	#three-column > div > div > div > .entry-content-wrapper > .av_one_fourth, #three-column > div > div > div > .entry-content-wrapper > .av_one_half,
+	#three-column > div > div > div > .entry-content-wrapper > .av_three_fourth, #three-column > div > main > div > .entry-content-wrapper > .av_three_fourth {
+		display:table-cell;
+		height:auto;
+		float:inherit;
+		vertical-align:top;
+	}
+	
+	#three-column > div > main > div > .entry-content-wrapper > .av_one_fourth,
+	#three-column > div > div > div > .entry-content-wrapper > .av_one_fourth {
+		background:url(../images/custom/sidebar_bg.jpg) top left repeat;
+	}
+	#three-column div .av_one_half {
+		margin-left: 0;
+		width: 59%;
+		padding:20px 0!important;
+	}
+	
+	#three-column div .av_one_half > * {
+		margin:0 6%!important;
+	}
+	
+	#three-column div .av_three_fourth {
+		margin-left: 0;
+		width: 79.5%;
+		padding:20px 6%!important;
+	}
+}
+
+
+
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (max-width: 767px) {
+  /* Add your Mobile Styles here */
+
+}

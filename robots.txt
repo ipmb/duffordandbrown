@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /wp-admin/
+sitemap: http://www.duffordbrown.com/page-sitemap.xml
